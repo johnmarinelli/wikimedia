@@ -16,8 +16,6 @@
   :password (System/getenv "POSTGRES_PASSWORD")
 })
 
-;(def wikimedia_url 
-
 (def query-params{
   "action"  "query"
   "list"    "allpages"
